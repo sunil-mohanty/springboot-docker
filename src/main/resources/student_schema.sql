@@ -1,0 +1,1 @@
+create table student(id int identity primary key, name varchar(30), address varchar(50));

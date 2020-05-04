@@ -1,0 +1,12 @@
+server:
+   port: 8088
+   servlet:
+      contextPath: /studentapp
+logging:
+     level:
+        org:
+        springframework.web: INFO
+spring:
+   jpa:
+     hibernate:
+        ddl-auto: update
